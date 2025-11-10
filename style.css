@@ -239,3 +239,167 @@ footer {
     font-size: 0.8rem;
     padding-bottom: 3rem;
 }
+
+/* Mobile Responsive Styles */
+@media screen and (max-width: 768px) {
+    .main-body {
+        height: auto;
+        width: 100%;
+        margin-top: 0;
+        flex-direction: column;
+        gap: 0;
+        padding: 1rem;
+    }
+
+    .body-1 {
+        display: none; /* Hide phone image on mobile */
+    }
+
+    .body-2 {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .login {
+        border: none;
+        height: auto;
+        width: 100%;
+        top: 0;
+        padding: 1rem;
+        margin-top: 2rem;
+    }
+
+    .instagram-box {
+        height: 3rem;
+        margin-top: 1rem;
+    }
+
+    .textfield {
+        margin-top: 1.5rem;
+        gap: 0.5rem;
+    }
+
+    #username,
+    #password {
+        width: 90%;
+        font-size: 1rem;
+        padding: 0.7rem;
+        height: auto;
+    }
+
+    #login-btn {
+        width: 90%;
+        height: 2.5rem;
+        font-size: 0.9rem;
+        margin-top: 0.5rem;
+    }
+
+    .or {
+        margin: 1rem 0;
+    }
+
+    .or hr {
+        width: 100px !important;
+    }
+
+    .forget-password {
+        margin-top: 0.5rem;
+    }
+
+    .sign-up-box {
+        margin-top: 1rem;
+        padding: 1.5rem;
+        border: 1px solid rgb(211, 211, 211);
+    }
+
+    .get-the-app {
+        padding: 1rem;
+    }
+
+    .get-the-app-images {
+        flex-direction: column;
+        gap: 0.8rem;
+    }
+
+    .google-play,
+    .microsoft {
+        height: 2.5rem;
+    }
+
+    footer {
+        margin-top: 2rem;
+    }
+
+    .footer-1 {
+        flex-wrap: wrap;
+        gap: 0.5rem;
+        padding: 0.5rem;
+        font-size: 0.7rem;
+    }
+
+    .footer-1 a {
+        font-size: 0.7rem;
+    }
+
+    .footer-2 {
+        flex-direction: column;
+        gap: 0.5rem;
+        padding-bottom: 2rem;
+        font-size: 0.7rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .main-body {
+        padding: 0.5rem;
+    }
+
+    .login {
+        padding: 0.5rem;
+        margin-top: 1rem;
+    }
+
+    .instagram-box {
+        height: 2.5rem;
+        margin-top: 0.5rem;
+    }
+
+    .textfield {
+        margin-top: 1rem;
+    }
+
+    #username,
+    #password {
+        width: 95%;
+        padding: 0.6rem;
+        font-size: 0.9rem;
+    }
+
+    #login-btn {
+        width: 95%;
+        height: 2.3rem;
+    }
+
+    .sign-up-box {
+        padding: 1rem;
+        font-size: 0.75rem;
+    }
+
+    .sign-up-box a {
+        font-size: 0.75rem;
+    }
+
+    .footer-1 {
+        font-size: 0.65rem;
+        gap: 0.3rem;
+    }
+
+    .footer-1 a {
+        font-size: 0.65rem;
+    }
+
+    .footer-2 {
+        font-size: 0.65rem;
+    }
+}
+
